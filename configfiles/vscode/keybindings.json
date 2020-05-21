@@ -1,0 +1,29 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+ctrl+u",
+        "command": "syncing.uploadSettings"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "syncing.downloadSettings"
+    },
+    {
+        "key": "alt+ctrl+s",
+        "command": "syncing.openSettings"
+    },
+    // Toggle between terminal and editor focus
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    }
+]

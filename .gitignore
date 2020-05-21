@@ -1,0 +1,24 @@
+#ignore everything except on whitelist
+/*
+
+
+#whitelist only config files
+!.gitignore
+!.zshrc
+!.p10k.zsh
+!.oh-my-zsh
+!/configfiles
+!/configfiles/fonts/nerd-fonts/patched-fonts
+
+
+#remove git data from other repos, remove private data
+/.oh-my-zsh/.github
+/.oh-my-zsh/.git
+/.oh-my-zsh/cache
+/configfiles/vscode/ftp-simple/
+/configfiles/vscode/globalStorage/
+/configfiles/vscode/workspaceStorage/
+/configfiles/vscode/ftp-simple.json
+/configfiles/vscode/syncing.json
+/configfiles/vscode/syncing.json
+/configfiles/fonts/nerd-fonts/*

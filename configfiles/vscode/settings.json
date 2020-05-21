@@ -1,0 +1,98 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "window.zoomLevel": 0,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  // Command Prompt
+  "terminal.integrated.shell.windows":
+    "C:\\WINDOWS\\System32\\cmd.exe",
+  // PowerShell
+  "terminal.integrated.shell.windows":
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // Bash on Ubuntu (on Windows)
+  "terminal.integrated.shell.windows":
+    "C:\\WINDOWS\\System32\\wsl.exe",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontSize": 16,
+  // Controls if the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
+  "editor.formatOnPaste": false, //false
+  // Zoom the font of the editor when using mouse wheel and holding Ctrl
+  "editor.mouseWheelZoom": false,
+  "files.autoSave": "off",
+  "git.autofetch": true,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  }, //false
+  "editor.smoothScrolling": true,
+  "python.jediEnabled": true,
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "custom",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "window.openFilesInNewWindow": "on",
+  "explorer.openEditors.visible": 6,
+  "editor.insertSpaces": false,
+  // Controls whether suggestions should automatically show up while typing.
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  // Controls the delay in milliseconds after which quick suggestions will show up.
+  "editor.quickSuggestionsDelay": 3,
+  // Control whether an active snippet prevents quick suggestions.
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "gitlens.views.repositories.files.layout": "list",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "cSpell.allowCompoundWords": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.rendererType": "dom",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "liveServer.settings.host": "localhost",
+  "prettier.tabWidth": 4,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "html.format.wrapLineLength": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "oneDarkPro.editorTheme": "Onedark Pro",
+  "oneDarkPro.bold": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground":"#C0C0C0",
+    "terminalCursor.background":"#C0C0C0",
+    "terminalCursor.foreground":"#C0C0C0",
+    "terminal.ansiBlack":"#000000",
+    "terminal.ansiBlue":"#006be6",
+    "terminal.ansiBrightBlack":"#808080",
+    "terminal.ansiBrightBlue":"#000ad3",
+    "terminal.ansiBrightCyan":"#02ABEA",
+    "terminal.ansiBrightGreen":"#55ad4f",
+    "terminal.ansiBrightMagenta":"#7f40d1",
+    "terminal.ansiBrightRed":"#DD0907",
+    "terminal.ansiBrightWhite":"#FFFFFF",
+    "terminal.ansiBrightYellow":"#FBF305",
+    "terminal.ansiCyan":"#02ABEA",
+    "terminal.ansiGreen":"#153f11",
+    "terminal.ansiMagenta":"#8324ff",
+    "terminal.ansiRed":"#DD0907",
+    "terminal.ansiWhite":"#C0C0C0",
+    "terminal.ansiYellow":"#FBF305"
+}

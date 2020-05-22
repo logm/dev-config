@@ -15,6 +15,3 @@ echo "---------installing autosuggestions---------"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo "---------install autoenv---------"
 git clone git://github.com/inishchith/autoenv.git ~/.autoenv
-echo "---------copying config files---------"
-cp zshrc $HOME/.zshrc
-cp p10k.zsh $HOME/.p10k.zsh

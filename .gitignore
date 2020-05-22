@@ -9,6 +9,7 @@
 !.oh-my-zsh
 !/configfiles
 !/configfiles/fonts/nerd-fonts/patched-fonts
+!README.md
 
 
 #remove git data from other repos, remove private data

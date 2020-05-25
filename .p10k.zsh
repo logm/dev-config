@@ -70,8 +70,8 @@
       ranger                  # ranger shell (https://github.com/ranger/ranger)
       vi_mode                 # vi mode (you don't need this if you've enabled prompt_char)
       # vpn_ip                # virtual private network indicator
-      ram                   # free RAM
-      load                  # CPU load
+      #ram                   # free RAM
+      #load                  # CPU load
       time                    # current time
       # public_ip             # public IP address
       # proxy                 # system-wide http/https/ftp proxy
@@ -434,7 +434,7 @@
   typeset -g POWERLEVEL9K_STATUS_OK=true
   typeset -g POWERLEVEL9K_STATUS_OK_VISUAL_IDENTIFIER_EXPANSION='✔'
   typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=15
-  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=22
+  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=24
 
   # Status when some part of a pipe command fails but the overall exit status is zero. It may look
   # like this: 1|0.
@@ -839,8 +839,8 @@
 
   ####################################[ time: current time ]####################################
   # Current time color.
-  typeset -g POWERLEVEL9K_TIME_FOREGROUND=0
-  typeset -g POWERLEVEL9K_TIME_BACKGROUND=49
+  typeset -g POWERLEVEL9K_TIME_FOREGROUND=15
+  typeset -g POWERLEVEL9K_TIME_BACKGROUND=23
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%b %d %r}'
   # If set to true, time will update when you hit enter. This way prompts for the past

@@ -31,7 +31,7 @@
             "useAcrylic": true,
             "fontSize": 12,
             "acrylicOpacity": 0.5,
-            "padding": "2, 2, 2, 2",
+            "padding": "5,5,5,5 ",
             "closeOnExit": true,
             "fontFace": "MesloLGS NF",
             "startingDirectory": "%USERPROFILE%"
@@ -40,15 +40,15 @@
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "name": "Ubuntu - windows dir",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
                 "name": "Ubuntu - linux dir",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory" : "//wsl$/Ubuntu/home/log"
+                "startingDirectory": "//wsl$/Ubuntu/home/log"
+            },
+            {
+                "name": "Ubuntu - windows dir",
+                "hidden": false,
+                "commandline": "wsl -d Ubuntu",
+                "icon": "ms-appdata:///roaming/ubuntu.ico"
             },
             {
                 // Make changes here to the powershell.exe profile.
@@ -75,6 +75,12 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -89,7 +95,7 @@
             "black": "#000000",
             "blue": "#006be6",
             "brightBlack": "#808080",
-            "brightBlue": "#000ad3",
+            "brightBlue": "#0f5afc",
             "brightCyan": "#02abea",
             "brightGreen": "#55ad4f",
             "brightMagenta": "#7f40d1",
@@ -120,7 +126,27 @@
 
         // Press Ctrl+Shift+F to open the search box
         { "command": "find", "keys": "ctrl+shift+f" },
-
+        { "command": "closeWindow", "keys": "ctrl+shift+f4" },
+        { "command": "openSettings", "keys": "ctrl+," },
+        { "command": "duplicateTab", "keys": "ctrl+shift+d" },
+        { "command": "closePane", "keys": "ctrl+shift+w" },
+        { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+shift+1" },
+        { "command": { "action": "newTab", "index": 1 }, "keys": "ctrl+shift+2" },
+        { "command": { "action": "newTab", "index": 2 }, "keys": "ctrl+shift+3" },
+        { "command": { "action": "newTab", "index": 3 }, "keys": "ctrl+shift+4" },
+        { "command": { "action": "newTab", "index": 4 }, "keys": "ctrl+shift+5" },
+        { "command": { "action": "newTab", "index": 5 }, "keys": "ctrl+shift+6" },
+        { "command": { "action": "newTab", "index": 6 }, "keys": "ctrl+shift+7" },
+        { "command": { "action": "newTab", "index": 7 }, "keys": "ctrl+shift+8" },
+        { "command": { "action": "newTab", "index": 8 }, "keys": "ctrl+shift+9" },
+        { "command": { "action": "moveFocus", "direction": "down" }, "keys": "alt+down" },
+        { "command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+left" },
+        { "command": { "action": "moveFocus", "direction": "right" }, "keys": "alt+right" },
+        { "command": { "action": "moveFocus", "direction": "up" }, "keys": "alt+up" },
+        { "command": { "action": "resizePane", "direction": "down" }, "keys": "alt+shift+down" },
+        { "command": { "action": "resizePane", "direction": "left" }, "keys": "alt+shift+left" },
+        { "command": { "action": "resizePane", "direction": "right" }, "keys": "alt+shift+right" },
+        { "command": { "action": "resizePane", "direction": "up" }, "keys": "alt+shift+up" },
         // Press Alt+Shift+D to open a new pane.
         // - "split": "auto" makes this pane open in the direction that provides the most surface area.
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.

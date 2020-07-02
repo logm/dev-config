@@ -6,24 +6,6 @@
 sudo apt install -y zsh
 chsh -s $(which zsh)
 ```
-- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
-```
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-```
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
-```
-
-## Plugins
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [autoenv](https://github.com/inishchith/autoenv)
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-git clone git://github.com/inishchith/autoenv.git ~/.autoenv
-```
-
-
 ## cronjobs
 
 ```
@@ -39,4 +21,35 @@ git clone git://github.com/inishchith/autoenv.git ~/.autoenv
 # pull latest code daily
 0 13 * * * cd ; git pull
 
+```
+
+# Install ZSH and change default shell
+```
+sudo apt install -y zsh
+sudo chsh -s $(which zsh)
+```
+
+
+https://levelup.gitconnected.com/zsh-antigen-oh-my-zsh-a-beautiful-powerful-robust-shell-ca5873821671
+
+```
+curl -L git.io/antigen > antigen.zsh
+```
+
+## .*rc files
+####  .zshrc
+```
+source $HOME/dev-config/logan.zshrc
+```
+####   .p10k.zsh
+```
+source $HOME/dev-config/logan.p10k.zsh
+```
+####  .antigenrc
+```
+source $HOME/dev-config/logan.antigenrc
+```
+####  .vimrc
+```
+source $HOME/dev-config/logan.vimrc
 ```

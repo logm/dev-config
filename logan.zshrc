@@ -64,6 +64,14 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+
+# Load Antigen
+source $HOME/antigen.zsh
+
+# Load Antigen configurations
+antigen init ~/.antigenrc
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -62,11 +62,11 @@ plugins=(
   )
 
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 
 # Load Antigen
-source $HOME/antigen.zsh
+source $HOME/dev-config/antigen.zsh
 
 # Load Antigen configurations
 antigen init ~/.antigenrc
@@ -109,9 +109,6 @@ bindkey '^ ' autosuggest-accept
 
 
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
-
-#for autoenv
-source ~/.autoenv/activate.sh
 
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet

@@ -1,31 +1,35 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
     "window.zoomLevel": 0,
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+	"editor.comments.insertSpace": false,
     // Command Prompt
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     // PowerShell
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     // Bash on Ubuntu (on Windows)
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "python.pythonPath": "C:\\Users\\logan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.fontSize": 16,
     // Controls if the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
     "editor.formatOnPaste": false, //false
     // Zoom the font of the editor when using mouse wheel and holding Ctrl
     "editor.mouseWheelZoom": false,
-    "files.autoSave": "off",
+    "files.autoSave": "onFocusChange",
     "git.autofetch": true,
     "gitlens.keymap": "alternate",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     }, //false
     "editor.smoothScrolling": true,
-    "python.jediEnabled": true,
+    "python.jediEnabled": false,
     "breadcrumbs.enabled": true,
     "window.titleBarStyle": "custom",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "workbench.view.alwaysShowHeaderActions": true,
@@ -64,7 +68,7 @@
     "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
     "html.format.wrapLineLength": 0,
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.cursorBlinking": true,
@@ -72,39 +76,32 @@
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "oneDarkPro.editorTheme": "Onedark Pro",
     "oneDarkPro.bold": true,
+    // https://htmlcolorcodes.com/color-chart/material-design-color-chart/
     "workbench.colorCustomizations": {
-        "terminal.foreground": "#C0C0C0",
-        "terminalCursor.background": "#C0C0C0",
-        "terminalCursor.foreground": "#C0C0C0",
+        "terminal.foreground": "#c0c0c0",
+        "terminalCursor.background": "#c0c0c0e3",
+        "terminalCursor.foreground": "#C0C0C0e6",
         "terminal.ansiBlack": "#000000",
         "terminal.ansiBlue": "#006be6",
         "terminal.ansiBrightBlack": "#808080",
         "terminal.ansiBrightBlue": "#000ad3",
         "terminal.ansiBrightCyan": "#02ABEA",
-        "terminal.ansiBrightGreen": "#55ad4f",
+        "terminal.ansiBrightGreen": "#64DD17",
         "terminal.ansiBrightMagenta": "#7f40d1",
         "terminal.ansiBrightRed": "#DD0907",
         "terminal.ansiBrightWhite": "#FFFFFF",
         "terminal.ansiBrightYellow": "#FBF305",
         "terminal.ansiCyan": "#02ABEA",
-        "terminal.ansiGreen": "#153f11",
+        "terminal.ansiGreen": "#43A047",
         "terminal.ansiMagenta": "#8324ff",
         "terminal.ansiRed": "#DD0907",
         "terminal.ansiWhite": "#C0C0C0",
         "terminal.ansiYellow": "#e6de05"
     },
-    "streamdeck.serverHost": "127.0.0.1",
-    // "streamdeck.serverHost": "172.28.136.119",
-    // "streamdeck.serverHost": "DESKTOP-N85CLPQ",
-    // "streamdeck.serverHost": "172.28.128.1",
     "streamdeck.serverHost": "0.0.0.0",
     "streamdeck.serverPort": 48969,
-    "cSpell.userWords": [
-        "Markle"
-    ],
-    // "streamdeck.serverPort": 42486,
-    // "streamdeck.serverPort": 51386,
-    // "streamdeck.serverPort": 51384
 
-
+    "cSpell.userWords": ["Markle"],
+	"python.autoComplete.addBrackets": true,
+	"python.languageServer": "Microsoft"
 }

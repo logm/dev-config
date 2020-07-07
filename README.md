@@ -36,20 +36,4 @@ https://levelup.gitconnected.com/zsh-antigen-oh-my-zsh-a-beautiful-powerful-robu
 curl -L git.io/antigen > antigen.zsh
 ```
 
-## .*rc files
-####  .zshrc
-```
-source $HOME/dev-config/logan.zshrc
-```
-####   .p10k.zsh
-```
-source $HOME/dev-config/logan.p10k.zsh
-```
-####  .antigenrc
-```
-source $HOME/dev-config/logan.antigenrc
-```
-####  .vimrc
-```
-source $HOME/dev-config/logan.vimrc
 ```

@@ -13,7 +13,7 @@ export ZSH="$HOME/.oh-my-zsh"
 GITSTATUS_LOG_LEVEL=DEBUG
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="awesome-patched"
+POWERLEVEL9K_MODE="nerdfont-complete"
 
 
 # Uncomment the following line to change how often to auto-update (in days).

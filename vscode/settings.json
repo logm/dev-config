@@ -1,107 +1,229 @@
 {
-    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-    "window.zoomLevel": 0,
-    "editor.fontLigatures": true,
-    "editor.wordWrap": "on",
-    "editor.tabSize": 4,
-    "editor.detectIndentation": false,
-	"editor.comments.insertSpace": false,
-    // Command Prompt
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    // PowerShell
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    // Bash on Ubuntu (on Windows)
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-    "python.pythonPath": "C:\\Users\\logan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "editor.fontSize": 16,
-    // Controls if the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
-    "editor.formatOnPaste": false, //false
-    // Zoom the font of the editor when using mouse wheel and holding Ctrl
-    "editor.mouseWheelZoom": false,
-    "files.autoSave": "onFocusChange",
-    "git.autofetch": true,
-    "gitlens.keymap": "alternate",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    }, //false
-    "editor.smoothScrolling": true,
-    "python.jediEnabled": false,
-    "breadcrumbs.enabled": true,
-    "window.titleBarStyle": "custom",
-    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.view.alwaysShowHeaderActions": true,
-    "window.openFilesInNewWindow": "on",
-    "explorer.openEditors.visible": 6,
-    "editor.insertSpaces": false,
-    // Controls whether suggestions should automatically show up while typing.
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-    },
-    // Controls the delay in milliseconds after which quick suggestions will show up.
-    "editor.quickSuggestionsDelay": 3,
-    // Control whether an active snippet prevents quick suggestions.
-    "editor.suggest.snippetsPreventQuickSuggestions": true,
-    "gitlens.views.repositories.files.layout": "list",
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "cSpell.allowCompoundWords": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.startupEditor": "none",
-    "terminal.integrated.rendererType": "dom",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "liveServer.settings.host": "localhost",
-    "prettier.tabWidth": 4,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
-    "html.format.wrapLineLength": 0,
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.drawBoldTextInBrightColors": false,
-    "oneDarkPro.editorTheme": "Onedark Pro",
-    "oneDarkPro.bold": true,
-    // https://htmlcolorcodes.com/color-chart/material-design-color-chart/
-    "workbench.colorCustomizations": {
-        "terminal.foreground": "#c0c0c0",
-        "terminalCursor.background": "#c0c0c0e3",
-        "terminalCursor.foreground": "#C0C0C0e6",
-        "terminal.ansiBlack": "#000000",
-        "terminal.ansiBlue": "#006be6",
-        "terminal.ansiBrightBlack": "#808080",
-        "terminal.ansiBrightBlue": "#000ad3",
-        "terminal.ansiBrightCyan": "#02ABEA",
-        "terminal.ansiBrightGreen": "#64DD17",
-        "terminal.ansiBrightMagenta": "#7f40d1",
-        "terminal.ansiBrightRed": "#DD0907",
-        "terminal.ansiBrightWhite": "#FFFFFF",
-        "terminal.ansiBrightYellow": "#FBF305",
-        "terminal.ansiCyan": "#02ABEA",
-        "terminal.ansiGreen": "#43A047",
-        "terminal.ansiMagenta": "#8324ff",
-        "terminal.ansiRed": "#DD0907",
-        "terminal.ansiWhite": "#C0C0C0",
-        "terminal.ansiYellow": "#e6de05"
-    },
-    "streamdeck.serverHost": "0.0.0.0",
-    "streamdeck.serverPort": 48969,
-
-    "cSpell.userWords": ["Markle"],
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[plaintext]": {
+		"editor.wordWrap": "off"
+	},
+	"cSpell.allowCompoundWords": true,
+	"cSpell.userWords": [
+		"Markle"
+	],
+	"debug.console.fontFamily": "MesloLGS NF",
+	"debug.onTaskErrors": "showErrors",
+	"debug.toolBarLocation": "docked",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.accessibilitySupport": "off",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSurroundingLines": 5,
+	"editor.definitionLinkOpensInPeek": true,
+	"editor.detectIndentation": false,
+	"editor.find.autoFindInSelection": "multiline",
+	"editor.fontFamily": "Fira Code, Meslo LG L for Powerline, Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 16,
+	"editor.formatOnPaste": false,
+	"editor.hover.delay": 150,
+	"editor.insertSpaces": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.showSlider": "always",
+	"editor.mouseWheelZoom": false,
+	"editor.quickSuggestions": {
+		"strings": true,
+		"other": true,
+		"comments": true
+	},
+	"editor.quickSuggestionsDelay": 3,
+	"editor.renderLineHighlight": "all",
+	"editor.smoothScrolling": true,
+	"editor.suggest.localityBonus": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": true,
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+	"editor.tabSize": 4,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"settings": {
+					"foreground": "#FFFF00"
+				},
+				"scope": "text.html.markdown.journal.task.open.bullet"
+			},
+			{
+				"settings": {
+					"foreground": "#FFFF00"
+				},
+				"scope": "text.html.markdown.journal.task.open.marker"
+			},
+			{
+				"settings": {
+					"fontStyle": "italic"
+				},
+				"scope": "text.html.markdown.journal.task.open.keyword"
+			},
+			{
+				"settings": {},
+				"scope": "text.html.markdown.journal.task.open.text"
+			},
+			{
+				"settings": {
+					"fontStyle": "italic"
+				},
+				"scope": "text.html.markdown.journal.task.completed.keyword"
+			},
+			{
+				"settings": {
+					"foreground": "#AAAAAA"
+				},
+				"scope": "text.html.markdown.journal.task.completed.marker"
+			},
+			{
+				"settings": {
+					"foreground": "#AAAAAA"
+				},
+				"scope": "text.html.markdown.journal.task.completed.text"
+			},
+			{
+				"settings": {
+					"foreground": "#FFFF00"
+				},
+				"scope": "text.html.markdown.journal.task.completed.bullet"
+			},
+			{
+				"settings": {
+					"fontStyle": "italic"
+				},
+				"scope": "text.html.markdown.journal.memo.keyword"
+			},
+			{
+				"settings": {
+					"foreground": "#FFFF00"
+				},
+				"scope": "text.html.markdown.journal.memo.bullet"
+			},
+			{
+				"settings": {
+					"foreground": "#FFFF00"
+				},
+				"scope": "text.html.markdown.journal.scope"
+			},
+			{
+				"settings": {
+					"fontStyle": "italic"
+				},
+				"scope": "text.html.markdown.journal.link.keyword"
+			},
+			{
+				"settings": {
+					"foreground": "#FFFF00"
+				},
+				"scope": "text.html.markdown.journal.link.bullet"
+			}
+		]
+	},
+	"editor.wordWrap": "on",
+	"explorer.incrementalNaming": "smart",
+	"explorer.openEditors.visible": 0,
+	"files.autoSave": "onFocusChange",
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"git.autofetch": true,
+	"gitlens.keymap": "alternate",
+	"gitlens.views.repositories.files.layout": "tree",
+	"hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7YXRsYXNzaWFuO2Jvb3RzdHJhcDtkZmQ7ZXI7bW9ja3Vwczt1bWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W10sXCJmb3JtYXRXaWR0aFwiOjAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4NTAsXCJoZWlnaHRcIjoxMTAwfSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+	"hediet.vscode-drawio.theme": "dark",
+	"html.format.wrapLineLength": 0,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
 	"python.autoComplete.addBrackets": true,
-	"python.languageServer": "Microsoft"
+	"python.languageServer": "Microsoft",
+	"python.pythonPath": "C:\\Users\\logan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+	"remote.downloadExtensionsLocally": true,
+	"streamdeck.serverHost": "0.0.0.0",
+	"streamdeck.serverPort": 48969,
+	"telemetry.enableTelemetry": false,
+	"terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.rendererType": "canvas",
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.openFilesInNewWindow": "on",
+	"window.restoreFullscreen": true,
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 0,
+	"workbench.colorCustomizations": {
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#FBF305",
+		"terminal.ansiYellow": "#e6de05",
+		"terminal.ansiBrightRed": "#DD0907",
+		"terminal.ansiRed": "#DD0907",
+		"terminalCursor.foreground": "#C0C0C0e6",
+		"terminalCursor.background": "#c0c0c0e3",
+		"terminal.ansiWhite": "#C0C0C0",
+		"terminal.foreground": "#c0c0c0",
+		"terminal.ansiBrightBlack": "#808080",
+		"terminal.ansiMagenta": "#8324ff",
+		"terminal.ansiBrightGreen": "#64DD17",
+		"terminal.ansiGreen": "#43A047",
+		"terminal.ansiBrightMagenta": "#7f40d1",
+		"terminal.ansiBlue": "#006be6",
+		"terminal.ansiBrightCyan": "#02ABEA",
+		"terminal.ansiCyan": "#02ABEA",
+		"terminal.ansiBrightBlue": "#000ad3",
+		"terminal.ansiBlack": "#000000"
+	},
+	"workbench.colorTheme": "Monokai Dimmed",
+	"workbench.editor.openPositioning": "first",
+	"workbench.editor.untitled.labelFormat": "name",
+	"workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
+	"workbench.view.alwaysShowHeaderActions": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"terminal.integrated.fontSize": 15,
+	"remote.SSH.remotePlatform": {
+		"10.0.0.94": "linux"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"todohighlight.isEnable": false,
+	"timeline.excludeSources": [],
+	"gitlens.sortTagsBy": "date:desc",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.tabCompletion": "on",
+	"leetcode.hint.configWebviewMarkdown": false,
+	"leetcode.workspaceFolder": "/home/log/.leetcode",
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter-notebook",
+			"filenamePattern": "*.ipynb"
+		}
+	],
+	"workbench.colorCustomizations": {
+		"tab.activeForeground": "#FFF",
+		"tab.activeBackground": "#62626A",
+		"tab.activeBorder": "#0059ff",
+		"tab.unfocusedActiveBackground": "#62626abe",
+		"tab.inactiveBackground": "#1e1e1e",
+		"tab.inactiveForeground": "#D8D8D8",
+		"statusBar.background": "#225e86",
+		"statusBarItem.remoteBackground": "#0059ff",
+	},
+	"docsView.documentationView.updateMode": "sticky",
+	"workbench.editor.decorations.badges": true,
+	"workbench.editor.decorations.colors": false,
 }

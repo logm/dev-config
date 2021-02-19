@@ -25,5 +25,47 @@
     {
         "key": "ctrl+m",
         "command": "-editor.action.toggleTabFocusMode"
-    }
+	},
+	{
+		"key": "ctrl+alt+p",
+		"command": "workbench.action.positionPanelBottom"
+	},
+	{
+		"key": "ctrl+alt+o",
+		"command": "workbench.action.positionPanelRight"
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "editor.debug.action.runToCursor"
+	},
+	{
+		"key": "ctrl+alt+y",
+		"command": "editor.debug.action.conditionalBreakpoint"
+	},
+	{
+		"key": "ctrl+alt+l",
+		"command": "editor.debug.action.selectionToWatch"
+	},
+	{
+		"key": "ctrl+shift+alt+k",
+		"command": "editor.debug.action.goToNextBreakpoint"
+	},
+	{
+		"key": "ctrl+shift+alt+h",
+		"command": "editor.debug.action.goToPreviousBreakpoint"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "-notebook.centerActiveCell",
+		"when": "notebookEditorFocused"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "-expandLineSelection",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.terminal.clear"
+	}
 ]
